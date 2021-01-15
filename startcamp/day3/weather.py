@@ -21,7 +21,7 @@ location_result = requests.get(location_search_url).json()
 busan_id = location_result[0]["woeid"]
 
 # location을 통해 부산의 날씨를 가져옴
-weather_url = "https://www.metaweather.com/api/location/"+str(busan_id)
+weather_url = f"https://www.metaweather.com/api/location/{busan_id}"
 weather_result = requests.get(weather_url).json()
 today_weather_dict = weather_result["consolidated_weather"][0]
 # print(f'{weather_result["title"]}의 {today_weather_dict["applicable_date"]} 날씨는 {weather_rule_dict[today_weather_dict["weather_state_name"]]} 입니다.')
@@ -33,3 +33,4 @@ for i in range(5):
     print(f'{weather_result["title"]}의 {locals()[date]["applicable_date"]} 날씨는 [{weather_rule_dict[locals()[date]["weather_state_name"]]}] 입니다.')
     print(f'\t 최대온도는 {round(locals()[date]["max_temp"],2)}, 최저온도는 {round(locals()[date]["min_temp"],2)}, 습도는 {locals()[date]["humidity"]} 입니다.\n')
 
+print(locals())
