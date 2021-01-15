@@ -10,5 +10,12 @@ https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/METHO
 [getMe]
 https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/getMe
 
+[getUpdates]
+https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/getUpdates
+
+[sendMessage]
+https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/sendMessage?chat_id-1569527937&text=hello
+
+
 
 
