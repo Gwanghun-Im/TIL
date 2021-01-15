@@ -1,0 +1,14 @@
+[Token]
+1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4
+
+[URL]
+https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/METHOD_NAME
+
+[내 ID]
+1569527937
+
+[getMe]
+https://api.telegram.org/bot1541699096:AAHnOcfQrygewM2Xt_G9_UMNOwQWHdcLvD4/getMe
+
+
+
